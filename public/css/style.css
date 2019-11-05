@@ -11985,8 +11985,8 @@ header {
           height: max-height; }
         header .sombre .container nav a:hover {
           background-color: #fa2323f5; }
-  header #carouselContent {
-    background: none;
+  header #DemoCarousel {
+    position: relative;
     height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
