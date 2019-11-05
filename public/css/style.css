@@ -11964,4 +11964,29 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+header {
+  background-image: url("../../public/images/banner1.jpg");
+  background-size: cover; }
+  header .sombre {
+    background-color: black;
+    opacity: 0.8; }
+    header .sombre .container {
+      padding-top: 30px;
+      display: flex; }
+      header .sombre .container nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 0;
+        border-top: 1px solid rgba(184, 180, 180, 0.855);
+        border-bottom: 1px solid rgba(184, 180, 180, 0.855); }
+        header .sombre .container nav a {
+          color: white;
+          height: max-height; }
+        header .sombre .container nav a:hover {
+          background-color: #fa2323f5; }
+  header #carouselContent {
+    background: none;
+    height: 100vh; }
+
 /*# sourceMappingURL=style.css.map */
