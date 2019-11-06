@@ -5,35 +5,43 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
-
 header
-    background-image: url('../../public/images/banner1.jpg')
-    background-size: cover
     .sombre
-        background-color: black
-        opacity: 0.80
-        .container
-            padding-top: 30px
-            display: flex
-            nav 
-                display: flex
-                justify-content: space-around
-                margin-top: 20px
-                padding: 0
-                border-top: 1px solid rgba(184, 180, 180, 0.855)
-                border-bottom: 1px solid rgba(184, 180, 180, 0.855)
-                a 
-                    color: white
-                    height: max-height
-                a:hover 
-                    background-color: #fa2323f5
-    #my-slider
         position: absolute
-        height: 100vh
+        width: 100%
+        height: 842px  
+        background-color: black
+        opacity: 0.80 
+    .grd_nav
+        padding-left: 190px
+        img 
+            margin: 0 20px 0 20px 
+            
+        a  
+            padding: 10px 15px 10px 15px
+            color: white
+            border-top: 1px solid white
+            border-bottom: 1px solid white
+        a:hover 
+            background-color: red 
+#carouselExampleIndicators
+    position: relative
+    top: 500px
+    left: 200px
+    width: 100vh
+    height: 500px
+
+
+/* section1*/
+
+
+
+
             
 #s1
     background-image: url('../../public/images/main_bg.jpg')
-    background-size: repeat
+    .s1_container
+        
     .s1_corps
         text: center
 
@@ -43,4 +51,35 @@ header
     .box_right_top
         position: absolute
         right: 15px
+    #v-pills-tab
+        a
+            color: rgb(22, 20, 20)
+            font-size: 32px
+            border-bottom: 1px solid rgb(206, 203, 203)
+            margin-left: 5px
+            border-radius: 0
+            i 
+                color: rgb(206, 203, 203)
+        a 
+        a:hover 
+            border-right: 3px solid red
+            i
+                color: red
+    .s1_menu
+        border-left: 1px solid rgb(206, 203, 203) 
+    .s1_ligne_menu
+        display: flex
+        align-items: center
+        padding-top: 7px
+        padding-bottom: 7px
+        border-bottom: 1px rgb(206, 203, 203) solid
+        width: 90%
+    .s1_menu_img 
+        width: 110px
+        border-radius: 50%
+        border: 4px rgb(216, 215, 215) solid
+    .s1_list_plat
+        background-color: rgb(216, 215, 215)
+        color: red
+        height: 29px
     

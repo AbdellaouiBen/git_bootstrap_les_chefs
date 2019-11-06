@@ -11964,34 +11964,34 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
-header {
-  background-image: url("../../public/images/banner1.jpg");
-  background-size: cover; }
-  header .sombre {
-    background-color: black;
-    opacity: 0.8; }
-    header .sombre .container {
-      padding-top: 30px;
-      display: flex; }
-      header .sombre .container nav {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        padding: 0;
-        border-top: 1px solid rgba(184, 180, 180, 0.855);
-        border-bottom: 1px solid rgba(184, 180, 180, 0.855); }
-        header .sombre .container nav a {
-          color: white;
-          height: max-height; }
-        header .sombre .container nav a:hover {
-          background-color: #fa2323f5; }
-  header #my-slider {
-    position: absolute;
-    height: 100vh; }
+header .sombre {
+  position: absolute;
+  width: 100%;
+  height: 842px;
+  background-color: black;
+  opacity: 0.8; }
+header .grd_nav {
+  padding-left: 190px; }
+  header .grd_nav img {
+    margin: 0 20px 0 20px; }
+  header .grd_nav a {
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; }
+  header .grd_nav a:hover {
+    background-color: red; }
 
+#carouselExampleIndicators {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  width: 100vh;
+  height: 500px; }
+
+/* section1 */
 #s1 {
-  background-image: url("../../public/images/main_bg.jpg");
-  background-size: repeat; }
+  background-image: url("../../public/images/main_bg.jpg"); }
   #s1 .s1_corps {
     text: center; }
   #s1 .box_left_top {
@@ -12000,5 +12000,34 @@ header {
   #s1 .box_right_top {
     position: absolute;
     right: 15px; }
+  #s1 #v-pills-tab a {
+    color: #161414;
+    font-size: 32px;
+    border-bottom: 1px solid #cecbcb;
+    margin-left: 5px;
+    border-radius: 0; }
+    #s1 #v-pills-tab a i {
+      color: #cecbcb; }
+  #s1 #v-pills-tab a:hover {
+    border-right: 3px solid red; }
+    #s1 #v-pills-tab a:hover i {
+      color: red; }
+  #s1 .s1_menu {
+    border-left: 1px solid #cecbcb; }
+  #s1 .s1_ligne_menu {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px #cecbcb solid;
+    width: 90%; }
+  #s1 .s1_menu_img {
+    width: 110px;
+    border-radius: 50%;
+    border: 4px #d8d7d7 solid; }
+  #s1 .s1_list_plat {
+    background-color: #d8d7d7;
+    color: red;
+    height: 29px; }
 
 /*# sourceMappingURL=style.css.map */

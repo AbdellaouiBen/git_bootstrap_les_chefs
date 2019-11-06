@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,92 +8,93 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body m-0>
     <!-- header -->
-    <header class="no-gutters">
-        <div class="sombre">
-            
+    <header class="">
+
 
         <!-- nav bar -->
-        
-            <div class="container">
-                <nav class="nav col-4">
-                    <a class="nav-link" href="#">HOME</a>
-                    <a class="nav-link" href="#">ABOUT US</a>
-                    <a class="nav-link" href="#">MENU LIST</a>
-                    <a class="nav-link" href="#">TEAM</a>
-                </nav>
-                <div class="col-2">
-                    <img src="./public/images/logo.png" alt="">
-                </div>
-                <nav class="nav col-6">
-                    <a class="nav-link" href="#">RESERVATION</a>
-                    <a class="nav-link" href="#">BLOG</a>
-                    <a class="nav-link" href="#">TESTIMONIALS</a>
-                    <a class="nav-link" href="#">CONTACT US</a>
-                </nav>
-            </div>
 
-     <!--carousel  -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
 
-                        <div id="my-slider" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid position-relative">
+            <div class="row  ">
+                <img class="img-fluid" src="./public/images/banner1.jpg" alt="">
+                <div class="sombre"></div>
 
-                            <!-- indicateurs  -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#my-slider" data-slide-to="0" class="active"></li>
-                                <li data-target="#my-slider" data-slide-to="1"></li>
-                            </ol>
 
-                            <!-- slides -->
-                            <div class="carousel_inner" role="listbox">
-                                <div class="item active">
-                                    <div class="carousel-caption">
-                                            <p>Whatever your <span>OCCASION</span>, <br>
-                                                <span>TASTE</span> 
-                                                <span>makes</span> 
-                                                 it one to 
-                                                <span>remember!</span> 
-                                            </p>
-                                            <button type="button" class="btn btn-light">PURCHASE THEM</button>
-                                            <button type="button" class="btn btn-danger rounded">LEARN MORE</button>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                        <div class="carousel-caption">
-                                                <p>Whatever your <span>OCCASION</span>, <br>
-                                                    <span>TASTE</span> 
-                                                    <span>makes</span> 
-                                                     it one to 
-                                                    <span>remember!</span> 
-                                                </p>
-                                                <button type="button" class="btn btn-light">PURCHASE THEM</button>
-                                                <button type="button" class="btn btn-danger rounded">LEARN MORE</button>
-                                        </div>
-                                    </div>
-
-                            </div>
-                            
-
-                            <!-- controls next & previous boutton -->
-                            <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-
+                <div class="container position-absolute">
+                    <div class="row justify-content-center align-items-center grd_nav mt-4">
+                        <nav class="nav">
+                            <a class="nav-link" href="#">HOME</a>
+                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link" href="#">MENU LIST</a>
+                            <a class="nav-link" href="#">TEAM</a>
+                        </nav>
+                        <div class="">
+                            <img src="./public/images/logo.png" alt="">
                         </div>
+                        <nav class="nav ">
+                            <a class="nav-link" href="#">RESERVATION</a>
+                            <a class="nav-link" href="#">BLOG</a>
+                            <a class="nav-link" href="#">TESTIMONIALS</a>
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </nav>
                     </div>
                 </div>
-            </div>
 
 
-     <!-- <p>Whatever your <span>OCCASION</span>, <br>
+                <!--carousel  -->
+                <div id="carouselExampleIndicators" class="carousel slide position-absolute" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                                <p class="text-white">Whatever your <span>OCCASION</span>, <br>
+                                    <span>TASTE</span> 
+                                    <span>makes</span> 
+                                     it one to 
+                                    <span>remember!</span> 
+                                </p>
+                                <button type="button" class="btn btn-light">PURCHASE THEM</button>
+                                <button type="button" class="btn btn-danger rounded">LEARN MORE</button>
+                          </div>
+                          <div class="carousel-item">
+                                <p class="text-white">Whatever your <span>OCCASION</span>, <br>
+                                    <span>TASTE</span> 
+                                    <span>makes</span> 
+                                     it one to 
+                                    <span>remember!</span> 
+                                </p>
+                                <button type="button" class="btn btn-light">PURCHASE THEM</button>
+                                <button type="button" class="btn btn-danger rounded">LEARN MORE</button>
+                          </div>
+                          <div class="carousel-item">
+                              <p class="text-white">Whatever your <span>OCCASION</span>, <br>
+                                    <span>TASTE</span> 
+                                    <span>makes</span> 
+                                     it one to 
+                                    <span>remember!</span> 
+                                </p>
+                                <button type="button" class="btn btn-light">PURCHASE THEM</button>
+                                <button type="button" class="btn btn-danger rounded">LEARN MORE</button>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+
+
+                <!-- <p>Whatever your <span>OCCASION</span>, <br>
                         <span>TASTE</span> 
                         <span>makes</span> 
                          it one to 
@@ -100,12 +102,13 @@
                     </p>
                     <button type="button" class="btn btn-light">PURCHASE THEM</button>
                     <button type="button" class="btn btn-danger rounded">LEARN MORE</button> -->
+            </div>
+        </div>
 
-    </div>
     </header>
     <!-- première section -->
     <div id="s1">
-        <div class="container bg-white p-0">
+        <div class="container bg-white p-0 s1_container">
             <div class="row p-0">
                 <div class="col-3">
                     <img class="box_left_top" src="/public/images/box-left-top.png" alt="">
@@ -115,10 +118,14 @@
                     <div class="s1_corps text-center">
                         <h1>OUR Story</h1>
                         <img src="./public/images/decoration_line.png" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dicta harum amet dolorum enim tempora placeat ipsa, libero illum obcaecati sit minima unde vel delectus debitis! Expedita neque omnis nihil, earum ipsum sequi nobis accusantium, ab veritatis, quasi optio repellendus maxime illum quisquam corporis architecto perferendis! Rem, nam officiis repellendus provident numquam dolores quod reiciendis.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dicta harum amet
+                            dolorum enim tempora placeat ipsa, libero illum obcaecati sit minima unde vel delectus
+                            debitis! Expedita neque omnis nihil, earum ipsum sequi nobis accusantium, ab veritatis,
+                            quasi optio repellendus maxime illum quisquam corporis architecto perferendis! Rem, nam
+                            officiis repellendus provident numquam dolores quod reiciendis.</p>
                         <h1>OUR Story</h1>
                         <img src="./public/images/decoration_line.png" alt="">
-                        
+
                     </div>
                 </div>
 
@@ -127,13 +134,177 @@
                 </div>
 
             </div>
-        </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <a class="nav-link w" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                    role="tab" aria-controls="v-pills-home" aria-selected="true"><i
+                                        class="fas fa-mug-hot fa-2x"></i>
+                                    <p>BreakFast</p>
+                                </a>
+                                <a class="nav-link s1_nav_left" id="v-pills-profile-tab" data-toggle="pill"
+                                    href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                    aria-selected="false"><i class="fas fa-hamburger fa-2x"></i>
+                                    <p>Lunch</p>
+                                </a>
+                                <a class="nav-link s1_nav_left" id="v-pills-messages-tab" data-toggle="pill"
+                                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                    aria-selected="false"><i class="fas fa-utensils fa-2x"></i>
+                                    <p>Snacks</p>
+                                </a>
+                                <a class="nav-link s1_nav_left" id="v-pills-settings-tab" data-toggle="pill"
+                                    href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                    aria-selected="false"><i class="fas fa-mug-hot fa-2x"></i>
+                                    <p>Dinner</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-5 pt-5 s1_menu">
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-5 pt-5">
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+                    <div class="row text-center s1_ligne_menu">
+                        <div class="col-3"><img class="s1_menu_img" src="./public/images/menu_image_1.jpg" alt=""></div>
+                        <div class="col-7">
+                            <p><strong>Deer Steak with Potatoes </strong> <br>Welcome to Risotto restaurant website.
+                                Here we try to share our </p>
+                        </div>
+                        <div class="col-2 s1_list_plat">
+                            <p>$25</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                
+                    <div class="col-3">
+                            <img class="box_left_top" src="/public/images/box-bottom-left.png" alt="">
+                        </div>
         
+                        <div class="col-6 text-center pt-5">
+                                
+                                <img src="./public/images/decoration_line.png" alt="">
+    
+                        </div>
+        
+                        <div class="col-3">
+                            <img class="box_right_top" src="/public/images/box-bottom_right.png" alt="">
+                        </div>
+            </div>
+        </div>
+
 
 
     </div>
 
-    
 
 
 
@@ -141,8 +312,16 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
