@@ -11989,11 +11989,18 @@ header .grd_nav {
   width: 100vh;
   height: 500px; }
 
+.header_bottom_deco {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px; }
+
 /* section1 */
 #s1 {
   background-image: url("../../public/images/main_bg.jpg"); }
+  #s1 .s1_container {
+    margin-top: 20px; }
   #s1 .s1_corps {
-    text: center; }
+    text: center;
+    padding-top: 50px; }
   #s1 .box_left_top {
     position: absolute;
     left: 15px; }
@@ -12029,5 +12036,29 @@ header .grd_nav {
     background-color: #d8d7d7;
     color: red;
     height: 29px; }
+  #s1 .box_left_top {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #s1 .box_right_top {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  #s1 .box_left_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  #s1 .box_right_bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+/* section 2 */
+#s2 {
+  background-image: url("../../public/images/team_background.jpg"); }
+  #s2 .chef_img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d8d7d7; }
 
 /*# sourceMappingURL=style.css.map */
