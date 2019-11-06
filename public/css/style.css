@@ -11985,8 +11985,20 @@ header {
           height: max-height; }
         header .sombre .container nav a:hover {
           background-color: #fa2323f5; }
-  header #DemoCarousel {
-    position: relative;
+  header #my-slider {
+    position: absolute;
     height: 100vh; }
+
+#s1 {
+  background-image: url("../../public/images/main_bg.jpg");
+  background-size: repeat; }
+  #s1 .s1_corps {
+    text: center; }
+  #s1 .box_left_top {
+    position: absolute;
+    left: 15px; }
+  #s1 .box_right_top {
+    position: absolute;
+    right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
