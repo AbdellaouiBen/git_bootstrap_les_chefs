@@ -12083,9 +12083,19 @@ header .grd_nav {
     right: 0; }
   #s3 form {
     background-image: url("../../public/images/book_table_bg.jpg");
-    border-radius: 20px; }
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px; }
     #s3 form p {
       color: white;
-      padding-top: 20px; }
+      padding-top: 30px; }
+    #s3 form .s3_form {
+      padding: 40px; }
+      #s3 form .s3_form .s3_form_col .s3_input {
+        border-radius: 13px;
+        margin-bottom: 20px; }
+    #s3 form .s3_button_book {
+      border-radius: 30px;
+      margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

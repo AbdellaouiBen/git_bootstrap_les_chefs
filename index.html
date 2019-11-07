@@ -333,22 +333,71 @@
             <h1 class="text-center">Book your table <br><img src="./public/images/decoration_line.png" alt=""></h1>
 
             <div class="d-flex justify-content-center">
-                    <form class="text-center w-50">
+                    <form class="text-center ">  
                         <p>For any question please call us at:+91-1234567890</p>
-                        <div class="row">
-                            <div class="col-6">
-                                    <input type="text" class="form-control" placeholder="First name">
-                                    <input type="number" class="form-control" placeholder="Phone number">
-                                    <input type="date" class="form-control" placeholder="date">
+                        <div class="row justify-content-center s3_form">
+                            <div class="col-5 s3_form_col">
+                                    <input type="text" class="form-control s3_input" placeholder="First name">
+                                    <input type="number" class="form-control s3_input" placeholder="Phone number">
+                                    <input type="date" class="form-control s3_input" placeholder="date">
+                                    <select class="custom-select s3_input" id="inputGroupSelect01">
+                                            <option selected>occasion</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
 
                             </div>
-
-
-
-                            <div class="col-6"></div>
+                            <div class="col-5 s3_form_col">
+                                    <input type="number" class="form-control s3_input" placeholder="Phone number">
+                                    <select class="custom-select s3_input" id="inputGroupSelect01">
+                                            <option selected>no of person</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                    </select>
+                                    <input type="time" class="form-control s3_input" placeholder="Time">
+                                    <select class="custom-select s3_input" id="inputGroupSelect01">
+                                            <option selected>Cuisine</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                    </select> 
+                            </div>
+                
                         </div>
+                        <div class="row justify-content-center  ">
+                                <button type="button" class="btn btn-danger s3_button_book">BOOK NOW</button>
+
+                            </div>
                             
                     </form>  
+            </div>
+            <h1 class="text-center mt-5">OUR blog <br><img src="./public/images/decoration_line.png" alt=""></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 m-3">
+                        <img class="" src="./public/images/blog_img1.jpg" alt="">
+                        <div>
+                            <p class="">12April2017/20Comment/35likes</p>
+                        </div>
+                        <div>
+                            <h3>Lorem, ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem!</p>
+                        </div>
+                    </div>
+                    <div class="col-5 m-3">
+                        <img class="" src="./public/images/blog_img2.jpg" alt="">
+                        <div>
+                            <p>12April2017/20Comment/35likes</p>
+                        </div>
+                         <div>
+                            <h3>Lorem, ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="bg-danger text-white">Know more</button>
             </div>
 
 
