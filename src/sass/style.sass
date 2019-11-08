@@ -4,6 +4,8 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
+body 
+    background-image: url("../../public/images/main_bg.jpg")
 
 header
     .sombre
@@ -41,7 +43,6 @@ header
 
             
 #s1
-    background-image: url('../../public/images/main_bg.jpg')
     .s1_container 
         margin-top: 20px
     .s1_corps
@@ -105,12 +106,16 @@ header
     background-image: url("../../public/images/team_background.jpg")
 
     .chef_img 
+        margin-right: 0
         margin-top: 30px
         margin-bottom: 30px
         border-bottom: 1px solid rgb(216, 215, 215)
+        justify-content: space-around 
+        .s2_img_chef
+            width: 200px 
+            border-bottom: 1px solid rgb(216, 215, 215)   
 /* section 3*/
 #s3
-    background-image: url('../../public/images/main_bg.jpg')
     position: relative
 
     .top_left
@@ -145,17 +150,50 @@ header
                     margin-bottom: 20px 
         .s3_button_book 
             border-radius: 30px 
-            margin-bottom: 20px 
-
-/*section 4*/
-#s4
+            margin-bottom: 20px
+.s3_photo_blog
+    display: flex
+    justify-content: space-around  
+    margin: auto
+    border-radius: 10px
+    border: 4px rgb(216, 215, 215) solid
+.s3_info_blog
+    background-color: red  
+    color: white  
+    border-radius: 5px   
+    position: absolute 
+    top: 250px        
+    left: 27%    
+    padding: 10px 
+.s3_text_blog
+    margin-top: 20px 
+    margin-left: 42.5px 
+.s3_button
+    display: flex 
+    justify-content: center 
+    button  
+        border-radius: 30px   
+        border: none 
+        padding: 7px 15px  
+/*section 4*/ 
+#s4 
     background-image: url("../../public/images/testimonials_background.jpg")
+    padding-bottom: 30px
+.s4_img_testimonial
+    width: 150px 
+    border-radius: 50%
+    border: 5px rgb(216, 215, 215) solid 
+.s4_text_testimonial
+    color: white
+    border-radius: 10px
+    border: 0.5px rgb(172, 170, 170) solid  
+    margin-left: 0
 /*section 5*/
 #s5
-    background-image: url("../../public/images/main_bg.jpg")
 /* footer */
 .footer
     background-image: url("../../public/images/footer_background.jpg")
+
     .footer_tags
         background-color: red 
         color: white

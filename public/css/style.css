@@ -11964,6 +11964,9 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+body {
+  background-image: url("../../public/images/main_bg.jpg"); }
+
 header .sombre {
   position: absolute;
   width: 100%;
@@ -11994,76 +11997,78 @@ header .grd_nav {
   height: 10px; }
 
 /* section1 */
-#s1 {
-  background-image: url("../../public/images/main_bg.jpg"); }
-  #s1 .s1_container {
-    margin-top: 20px; }
-  #s1 .s1_corps {
-    text: center;
-    padding-top: 50px; }
-  #s1 .box_left_top {
-    position: absolute;
-    left: 15px; }
-  #s1 .box_right_top {
-    position: absolute;
-    right: 15px; }
-  #s1 #v-pills-tab a {
-    color: #161414;
-    font-size: 32px;
-    border-bottom: 1px solid #cecbcb;
-    margin-left: 5px;
-    border-radius: 0; }
-    #s1 #v-pills-tab a i {
-      color: #cecbcb; }
-  #s1 #v-pills-tab a:hover {
-    border-right: 3px solid red; }
-    #s1 #v-pills-tab a:hover i {
-      color: red; }
-  #s1 .s1_menu {
-    border-left: 1px solid #cecbcb; }
-  #s1 .s1_ligne_menu {
-    display: flex;
-    align-items: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-bottom: 1px #cecbcb dotted;
-    width: 90%; }
-  #s1 .s1_menu_img {
-    width: 110px;
-    border-radius: 50%;
-    border: 4px #d8d7d7 solid; }
-  #s1 .s1_list_plat {
-    background-color: #d8d7d7;
-    color: red;
-    height: 29px; }
-  #s1 .box_left_top {
-    position: absolute;
-    left: 0;
-    top: 0; }
-  #s1 .box_right_top {
-    position: absolute;
-    right: 0;
-    top: 0; }
-  #s1 .box_left_bottom {
-    position: absolute;
-    left: 0;
-    bottom: 0; }
-  #s1 .box_right_bottom {
-    position: absolute;
-    right: 0;
-    bottom: 0; }
+#s1 .s1_container {
+  margin-top: 20px; }
+#s1 .s1_corps {
+  text: center;
+  padding-top: 50px; }
+#s1 .box_left_top {
+  position: absolute;
+  left: 15px; }
+#s1 .box_right_top {
+  position: absolute;
+  right: 15px; }
+#s1 #v-pills-tab a {
+  color: #161414;
+  font-size: 32px;
+  border-bottom: 1px solid #cecbcb;
+  margin-left: 5px;
+  border-radius: 0; }
+  #s1 #v-pills-tab a i {
+    color: #cecbcb; }
+#s1 #v-pills-tab a:hover {
+  border-right: 3px solid red; }
+  #s1 #v-pills-tab a:hover i {
+    color: red; }
+#s1 .s1_menu {
+  border-left: 1px solid #cecbcb; }
+#s1 .s1_ligne_menu {
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 1px #cecbcb dotted;
+  width: 90%; }
+#s1 .s1_menu_img {
+  width: 110px;
+  border-radius: 50%;
+  border: 4px #d8d7d7 solid; }
+#s1 .s1_list_plat {
+  background-color: #d8d7d7;
+  color: red;
+  height: 29px; }
+#s1 .box_left_top {
+  position: absolute;
+  left: 0;
+  top: 0; }
+#s1 .box_right_top {
+  position: absolute;
+  right: 0;
+  top: 0; }
+#s1 .box_left_bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+#s1 .box_right_bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
 
 /* section 2 */
 #s2 {
   background-image: url("../../public/images/team_background.jpg"); }
   #s2 .chef_img {
+    margin-right: 0;
     margin-top: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #d8d7d7; }
+    border-bottom: 1px solid #d8d7d7;
+    justify-content: space-around; }
+    #s2 .chef_img .s2_img_chef {
+      width: 200px;
+      border-bottom: 1px solid #d8d7d7; }
 
 /* section 3 */
 #s3 {
-  background-image: url("../../public/images/main_bg.jpg");
   position: relative; }
   #s3 .top_left {
     position: absolute;
@@ -12098,14 +12103,51 @@ header .grd_nav {
       border-radius: 30px;
       margin-bottom: 20px; }
 
+.s3_photo_blog {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 10px;
+  border: 4px #d8d7d7 solid; }
+
+.s3_info_blog {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 250px;
+  left: 27%;
+  padding: 10px; }
+
+.s3_text_blog {
+  margin-top: 20px;
+  margin-left: 42.5px; }
+
+.s3_button {
+  display: flex;
+  justify-content: center; }
+  .s3_button button {
+    border-radius: 30px;
+    border: none;
+    padding: 7px 15px; }
+
 /*section 4 */
 #s4 {
-  background-image: url("../../public/images/testimonials_background.jpg"); }
+  background-image: url("../../public/images/testimonials_background.jpg");
+  padding-bottom: 30px; }
+
+.s4_img_testimonial {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px #d8d7d7 solid; }
+
+.s4_text_testimonial {
+  color: white;
+  border-radius: 10px;
+  border: 0.5px #acaaaa solid;
+  margin-left: 0; }
 
 /*section 5 */
-#s5 {
-  background-image: url("../../public/images/main_bg.jpg"); }
-
 /* footer */
 .footer {
   background-image: url("../../public/images/footer_background.jpg"); }
