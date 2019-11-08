@@ -11967,30 +11967,42 @@ readers do not read off random characters that represent icons */
 body {
   background-image: url("../../public/images/main_bg.jpg"); }
 
-header .sombre {
-  position: absolute;
-  width: 100%;
-  height: 842px;
-  background-color: black;
-  opacity: 0.8; }
-header .grd_nav {
-  padding-left: 190px; }
-  header .grd_nav img {
-    margin: 0 20px 0 20px; }
-  header .grd_nav a {
-    padding: 10px 15px 10px 15px;
-    color: white;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white; }
-  header .grd_nav a:hover {
-    background-color: red; }
+header {
+  background-image: url("./public/images/banner1.jpg"); }
+  header .sombre {
+    position: absolute;
+    width: 100%;
+    height: 842px;
+    background-color: black;
+    opacity: 0.8; }
+  header .grd_nav {
+    padding-left: 190px; }
+    header .grd_nav img {
+      margin: 0 20px 0 20px; }
+    header .grd_nav a {
+      padding: 10px 15px 10px 15px;
+      color: white;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white; }
+    header .grd_nav a:hover {
+      background-color: red; }
 
 #carouselExampleIndicators {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 18vh;
+  margin-top: 20vh;
   width: 100%;
-  height: 500px; }
+  height: 500px;
+  align-items: center; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.carousel_text {
+  padding-top: 100px;
+  font-size: 50px; }
 
 .header_bottom_deco {
   background-image: url("../../public/images/bottom_decoration_img.png");
