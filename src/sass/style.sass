@@ -32,7 +32,8 @@ header
                 padding: 0
 
                 a 
-                    padding: 15px       
+                    padding: 15px 
+                    padding-left: 100px        
                     color: white
                     border-bottom: 1px solid rgb(129, 127, 127)
                     border-top: 1px solid rgb(129, 127, 127)  
@@ -108,13 +109,17 @@ header
             border-right: 3px solid rgb(207, 39, 41) 
             i
                 color: rgb(207, 39, 41) 
+        a:active
+            background-color: black 
+
     .s1_menu
         border-left: 1px solid rgb(206, 203, 203) 
     .s1_ligne_menu
         display: flex
-        align-items: center
-        padding-top: 7px
-        padding-bottom: 7px
+        align-items: center 
+        justify-content: space-around 
+        margin: 7px 0 
+        padding: 7px 0 
         border-bottom: 1px rgb(206, 203, 203) dotted
         width: 90%
     .s1_menu_img 
@@ -281,7 +286,15 @@ header
 
 /*Media Queries*/
 
-@media (min-width: 0px) AND (max-width: 400px)
+
+
+
+@media (min-width: 00px) AND (max-width: 768px) 
+    .s1_p_story
+        width: 350px  
+    .ligne_deco
+        width: 300px 
+
     
 
 

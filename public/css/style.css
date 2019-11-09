@@ -11990,6 +11990,7 @@ header {
         padding: 0; }
         header .container-fluid nav ul a {
           padding: 15px;
+          padding-left: 100px;
           color: white;
           border-bottom: 1px solid #817f7f;
           border-top: 1px solid #817f7f; }
@@ -12053,13 +12054,16 @@ header {
   border-right: 3px solid #cf2729; }
   #s1 #v-pills-tab a:hover i {
     color: #cf2729; }
+#s1 #v-pills-tab a:active {
+  background-color: black; }
 #s1 .s1_menu {
   border-left: 1px solid #cecbcb; }
 #s1 .s1_ligne_menu {
   display: flex;
   align-items: center;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  justify-content: space-around;
+  margin: 7px 0;
+  padding: 7px 0;
   border-bottom: 1px #cecbcb dotted;
   width: 90%; }
 #s1 .s1_menu_img {
@@ -12235,5 +12239,11 @@ header {
   height: 80px; }
 
 /*Media Queries */
+@media (min-width: 0px) and (max-width: 768px) {
+  .s1_p_story {
+    width: 350px; }
+
+  .ligne_deco {
+    width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
