@@ -6,12 +6,13 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
 @font-face 
-    font-family: courgette
-    src: url("../../public/fonts/Cougette-Regular.ttf")
-    
+    font-family: "courgette"
+    src: url("../../public/fonts/Cougette-Regular.ttf") format("truetype")
+
 body 
     background-image: url("../../public/images/main_bg.jpg") 
-
+.courgette
+    font-family: 'Courgette', cursive
     
 
 header
@@ -52,6 +53,18 @@ header
         a:hover 
             background-color: red 
 
+.carousel-indicators li 
+    width: 10px
+    height: 10px 
+    border-radius: 100%
+    &.active, &:hover,
+        width: 12px 
+        height: 12px  
+        background-color: rgb(246, 246, 248) 
+         
+
+
+
 .carousel_text 
     padding-top: 100px
     font-size: 50px  
@@ -72,7 +85,8 @@ header
     .s1_corps
         text: center
         padding-top: 50px
-        
+        p 
+            width: 600px           
     .box_left_top
         position: absolute
         left: 15px
@@ -145,7 +159,10 @@ header
     margin-top: -30px  
     padding-bottom: 20px 
 #s3
+    margin-bottom: 50px  
     position: relative
+    .container 
+        padding-bottom: 100px  
     .top_left
         position: absolute
         top: 0
@@ -179,35 +196,49 @@ header
         .s3_button_book 
             border-radius: 30px 
             margin-bottom: 20px
+
 .s3_photo_blog
     display: flex
     justify-content: space-around  
     margin: auto
     border-radius: 10px
     border: 4px rgb(216, 215, 215) solid
+    width: 400px  
+
 .s3_info_blog 
+    font-size: large 
+    position: absolute
     color: white  
-    border-radius: 5px   
-    position: absolute 
-    top: 250px        
-    left: 27%    
-    padding: 10px 
+    padding: 5px 15px 5px 15px  
+    border-radius: 5px 
+    left: 130px  
+    bottom: -35px         
 .s3_text_blog
+    position: absolute
     margin-top: 20px 
     margin-left: 42.5px 
+    left: 90px 
+.blog_number
+    color: white
+    font-size: 25px  
+    font-weight: bold  
+
 .s3_button
     display: flex 
     justify-content: center 
     button  
         border-radius: 30px   
         border: none 
-        padding: 7px 15px
-        margiin-top: 20px  
-        margin-bottom: 40px 
+        padding: 10px 20px 
+        margin-top: 70px   
+        margin-bottom: 20px 
 /*section 4*/ 
 #s4 
     background-image: url("../../public/images/testimonials_background.jpg")
     padding-bottom: 30px
+    h1 
+        padding-top: 70px    
+        margin-bottom: 70px    
 .s4_img_testimonial
     width: 150px 
     border-radius: 50%
@@ -219,13 +250,16 @@ header
     margin-left: 0
 /*section 5*/
 #s5
+    .s3_deco_line
+    .s5_margin_top
+        margin-top: 40px  
     .s5_contact_div 
-        width: 40% 
+        width: 30%   
         border-radius: 10px 
         padding: 25px 20px 15px 20px 
-        margin-bottom: 25px  
-        hr 
-            color: rgb(255, 255, 255)
+        margin-bottom: 25px 
+        margin-top: 40px     
+        hr  
             background-color: rgb(255, 255, 255) 
 /* footer */
 .footer_deco
@@ -242,5 +276,13 @@ header
     margin: 3px  
 .footer_end
     height: 80px
+
+/*Media Queries*/
+
+@media (min-width: 0px) AND (max-width: 400px)
+    .container-fluid 
+        ul 
+            width: 100%  
+    
 
 
