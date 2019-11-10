@@ -212,23 +212,22 @@ header
     border: 4px rgb(216, 215, 215) solid
     width: 400px  
 
-.s3_info_blog 
+.s3_blog_decriptif
+.s3_blog_bas
+    margin-top: -25px     
+
+.s3_info_blog  
     font-size: large 
-    position: absolute
     color: white  
-    padding: 5px 15px 5px 15px  
+    padding: 5px 15px  
     border-radius: 5px 
-    left: 130px  
-    bottom: -35px         
-.s3_text_blog
-    position: absolute
-    margin-top: 20px 
-    margin-left: 42.5px 
-    left: 90px 
+    
 .blog_number
     color: white
     font-size: 25px  
     font-weight: bold  
+.s3_text_blog
+    width: 350px 
 
 .s3_button
     display: flex 
@@ -285,15 +284,64 @@ header
     height: 80px
 
 /*Media Queries*/
+@media (min-width: 769px) AND (max-width: 992px) 
+    #s3
+        .s3_titre
+            font-size: 28px  
+            img 
+                margin-top: 0px
+    .s3_blog_bas
+        margin-top: -55px  
+    .s3_photo_blog
+        width: 250px 
+        margin-bottom: 50px  
+    .s3_info_blog 
+        font-size: 10px  
+        width: 230px    
+    .s3_text_blog
+        font-size: small  
+        .blog_number
+            font-size: 10px   
+            font-weight: normal 
+#s4
+    .col-sm-12  
+        text-align: center    
 
-
-
+    
 
 @media (min-width: 00px) AND (max-width: 768px) 
     .s1_p_story
         width: 350px  
     .ligne_deco
         width: 300px 
+    #s3
+        .s3_titre
+            font-size: 28px  
+            img 
+                margin-top: 0px
+    .s3_blog_bas
+        margin-top: -55px  
+    .s3_photo_blog
+        width: 250px 
+        margin-bottom: 50px  
+    .s3_info_blog 
+        font-size: 10px  
+        width: 230px    
+    .s3_text_blog
+        font-size: small  
+        .blog_number
+            font-size: 10px   
+            font-weight: normal    
+#s4
+    .col-sm-12  
+        text-align: center   
+#s5 
+    .s5_contact_div 
+        width: 340px 
+
+
+
+
 
     
 
